@@ -46,10 +46,11 @@ export class BillingHistoryPage {
     ];
 
     constructor(public navCtrl: NavController, public navParams: NavParams) {
+        this.billingHistory = this.billingHistory;
     }
 
     ionViewDidLoad() {
-    console.log('ionViewDidLoad BillingHistory');
+        console.log('ionViewDidLoad BillingHistory');
     }
 
 }

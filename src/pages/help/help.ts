@@ -34,6 +34,7 @@ export class HelpPage {
     ];
 
     constructor(public navCtrl: NavController, public navParams: NavParams) {
+        this.faqs = this.faqs;
     }
 
     ionViewDidLoad() {
